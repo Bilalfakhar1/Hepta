@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "echo $NODE_ENV && VITE_BUILD_MODE=production npm run vite build",
+    "vite": "vite build",
+   "build": "echo $NODE_ENV && VITE_BUILD_MODE=production vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
